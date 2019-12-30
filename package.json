@@ -1,36 +1,22 @@
 {
-  "name": "travelSite",
+  "name": "travel-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mastecccc/travelSite.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mastecccc/travelSite/issues"
-  },
-  "homepage": "https://github.com/mastecccc/travelSite#readme",
   "dependencies": {
-    "autoprefixer": "^9.7.3",
-    "lodash": "^4.17.15",
-    "normalize.css": "^8.0.1",
-    "postcss-nested": "^4.2.1",
-    "postcss-simple-vars": "^5.0.2"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "css-loader": "^3.4.0",
+    "autoprefixer": "^9.6.5",
+    "css-loader": "^3.2.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
-    "style-loader": "^1.1.2",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "postcss-nested": "^4.1.2",
+    "postcss-simple-vars": "^5.0.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   }
 }
